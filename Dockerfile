@@ -1,2 +1,3 @@
 FROM centos:7
-CMD bash
+CMD while true; do echo "Hello."; sleep 10; done
+
