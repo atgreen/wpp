@@ -1,3 +1,3 @@
-FROM fedora
-CMD while true; do echo "Hello2."; sleep 10; done
+FROM rhel
+CMD while true; do echo "Hello."; sleep 10; done
 
